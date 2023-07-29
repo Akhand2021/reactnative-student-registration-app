@@ -11,6 +11,8 @@ import {
 import axios from "axios";
 import * as Device from "expo-device";
 import tw from "twrnc";
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 export default function UserRegistration() {
   const [email, setemail] = useState("");
